@@ -1,13 +1,13 @@
 //
-//  MusicalModeSongs.swift
+//  ModesVM.swift
 //  MusicalModes
 //
-//  Created by Louis Melone on 2/11/21.
+//  Created by Louis Melone on 2/12/21.
 //
 
 import SwiftUI
 
-class ViewModel: ObservableObject {
+class ModesVM: ObservableObject {
      
     @Published private var modesModel: ModesModel
 
@@ -15,5 +15,8 @@ class ViewModel: ObservableObject {
         return modesModel.modes
     }
     
+    init() {
+        modesModel = ModesModel()
+    }
     
 }

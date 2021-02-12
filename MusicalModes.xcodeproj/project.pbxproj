@@ -9,25 +9,25 @@
 /* Begin PBXBuildFile section */
 		4152053825D5C10A00851AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152053725D5C10A00851AE6 /* AppDelegate.swift */; };
 		4152053A25D5C10A00851AE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152053925D5C10A00851AE6 /* SceneDelegate.swift */; };
-		4152053C25D5C10A00851AE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152053B25D5C10A00851AE6 /* ContentView.swift */; };
 		4152053E25D5C10B00851AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4152053D25D5C10B00851AE6 /* Assets.xcassets */; };
 		4152054125D5C10B00851AE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4152054025D5C10B00851AE6 /* Preview Assets.xcassets */; };
 		4152054425D5C10B00851AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4152054225D5C10B00851AE6 /* LaunchScreen.storyboard */; };
-		4152054E25D5D80500851AE6 /* MusicalModeSongs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152054D25D5D80500851AE6 /* MusicalModeSongs.swift */; };
 		4152055225D5DD1100851AE6 /* ModesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152055125D5DD1100851AE6 /* ModesModel.swift */; };
+		4152055525D6EEA100851AE6 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152055425D6EEA100851AE6 /* HomeScreenView.swift */; };
+		4152055D25D6EF4C00851AE6 /* ModesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152055C25D6EF4C00851AE6 /* ModesVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4152053425D5C10A00851AE6 /* MusicalModes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicalModes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4152053725D5C10A00851AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4152053925D5C10A00851AE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4152053B25D5C10A00851AE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4152053D25D5C10B00851AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4152054025D5C10B00851AE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4152054325D5C10B00851AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4152054525D5C10B00851AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4152054D25D5D80500851AE6 /* MusicalModeSongs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicalModeSongs.swift; sourceTree = "<group>"; };
 		4152055125D5DD1100851AE6 /* ModesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModesModel.swift; sourceTree = "<group>"; };
+		4152055425D6EEA100851AE6 /* HomeScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		4152055C25D6EF4C00851AE6 /* ModesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModesVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +61,10 @@
 			isa = PBXGroup;
 			children = (
 				4152053725D5C10A00851AE6 /* AppDelegate.swift */,
-				4152054D25D5D80500851AE6 /* MusicalModeSongs.swift */,
+				4152055425D6EEA100851AE6 /* HomeScreenView.swift */,
+				4152055C25D6EF4C00851AE6 /* ModesVM.swift */,
 				4152055125D5DD1100851AE6 /* ModesModel.swift */,
 				4152053925D5C10A00851AE6 /* SceneDelegate.swift */,
-				4152053B25D5C10A00851AE6 /* ContentView.swift */,
 				4152053D25D5C10B00851AE6 /* Assets.xcassets */,
 				4152054225D5C10B00851AE6 /* LaunchScreen.storyboard */,
 				4152054525D5C10B00851AE6 /* Info.plist */,
@@ -154,8 +154,8 @@
 				4152053825D5C10A00851AE6 /* AppDelegate.swift in Sources */,
 				4152053A25D5C10A00851AE6 /* SceneDelegate.swift in Sources */,
 				4152055225D5DD1100851AE6 /* ModesModel.swift in Sources */,
-				4152054E25D5D80500851AE6 /* MusicalModeSongs.swift in Sources */,
-				4152053C25D5C10A00851AE6 /* ContentView.swift in Sources */,
+				4152055525D6EEA100851AE6 /* HomeScreenView.swift in Sources */,
+				4152055D25D6EF4C00851AE6 /* ModesVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
