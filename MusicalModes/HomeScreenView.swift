@@ -15,7 +15,9 @@ struct HomeScreenView: View {
         NavigationView {
             List {
                 ForEach(modesVM.modes) { mode in
-                    Text(mode.name)
+                    NavigationLink(destination: CategoryView(mode: mode)) {
+                        Text(mode.name)
+                    }
                 }
             }
         }

@@ -31,6 +31,9 @@ struct Mode: Identifiable {
     init(name: String, songs: Array<Song> = [], progressions: Array<String> = [], notes: Array<String> = []) {
         self.name = name
         self.id = name
+        self.notes = notes
+        self.progressions = progressions
+        self.songs = songs
     }
 }
 

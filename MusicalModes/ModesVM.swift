@@ -15,6 +15,7 @@ class ModesVM: ObservableObject {
         return modesModel.modes
     }
     
+    
     init() {
         modesModel = ModesModel()
     }
