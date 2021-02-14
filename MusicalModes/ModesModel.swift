@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ModesModel {
     
-    private(set) var modes: Array<Mode> = [(Mode(name: "Ionian", progressions: ["I-IV-V","I-vi-ii-V","ii-V-I","I-V-vi-IV"], chords: ["Cmaj", "Dmin", "Emin", "Fmaj", "Gmaj", "Amin", "Bdim"] )),
+    private(set) var modes: Array<Mode> = [(Mode(name: "Ionian", progressions: ["I-IV-V","I-vi-ii-V","ii-V-I","I-V-vi-IV"], chords: ["CMaj", "Dmin", "Emin", "FMaj", "GMaj", "Amin", "Bdim"] )),
                                            (Mode(name: "Dorian", progressions: ["ii-IV"], chords: ["C", "D", "Eb/D#", "G", "A", "Bb/A#", "C" ] )),
                                            (Mode(name: "Phyrigian", progressions: ["ii-IV"], chords: ["C", "Db/C#", "Eb/D#", "G", "Ab/G#", "Bb/A#", "B" ] )),
                                            (Mode(name: "Lydian", progressions: ["ii-IV"], chords: ["C", "D", "E", "F", "G", "A", "B" ] )),

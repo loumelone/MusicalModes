@@ -6,9 +6,11 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct ChordView: View {
     
+    var sounds = Sounds()
     var mode: Mode
     
     var body: some View {
@@ -20,11 +22,17 @@ struct ChordView: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20).stroke(Color.blue)
                             Text(chord).padding(20)
+                                .onTapGesture {
+                                    sounds.playCMaj()
+                                }
                         }
+                        
                     }
                 }
             }
         }
     }
+
+
 }
         
