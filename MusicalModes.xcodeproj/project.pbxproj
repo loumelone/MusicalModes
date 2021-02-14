@@ -19,6 +19,7 @@
 		4152056625D8422A00851AE6 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056525D8422A00851AE6 /* SongView.swift */; };
 		4152056925D8478800851AE6 /* ChordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056825D8478800851AE6 /* ChordView.swift */; };
 		4152056C25D84AFF00851AE6 /* ModeCategoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056B25D84AFF00851AE6 /* ModeCategoryVM.swift */; };
+		4152057025D8789400851AE6 /* ProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056F25D8789400851AE6 /* ProgressionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		4152056525D8422A00851AE6 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		4152056825D8478800851AE6 /* ChordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordView.swift; sourceTree = SOURCE_ROOT; };
 		4152056B25D84AFF00851AE6 /* ModeCategoryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeCategoryVM.swift; sourceTree = "<group>"; };
+		4152056F25D8789400851AE6 /* ProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 		4152053625D5C10A00851AE6 /* MusicalModes */ = {
 			isa = PBXGroup;
 			children = (
+				4152056F25D8789400851AE6 /* ProgressionView.swift */,
 				4152056825D8478800851AE6 /* ChordView.swift */,
 				4152056225D8408A00851AE6 /* CategoryView.swift */,
 				4152055425D6EEA100851AE6 /* HomeScreenView.swift */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4152057025D8789400851AE6 /* ProgressionView.swift in Sources */,
 				4152053825D5C10A00851AE6 /* AppDelegate.swift in Sources */,
 				4152053A25D5C10A00851AE6 /* SceneDelegate.swift in Sources */,
 				4152056325D8408A00851AE6 /* CategoryView.swift in Sources */,

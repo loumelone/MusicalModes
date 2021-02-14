@@ -13,9 +13,11 @@ struct CategoryView: View {
 
     var body: some View {
         NavigationView {
+            ScrollView {
 //                SongView(mode: self.mode)
-    //            ProgressionView()
+                ProgressionView(mode: self.mode)
                 ChordView(mode: self.mode)
+            }
             }
         }
     }

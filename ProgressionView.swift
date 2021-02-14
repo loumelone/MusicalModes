@@ -1,5 +1,5 @@
 //
-//  ChordView.swift
+//  ProgressionView.swift
 //  MusicalModes
 //
 //  Created by Louis Melone on 2/13/21.
@@ -7,19 +7,18 @@
 
 import SwiftUI
 
-struct ChordView: View {
-    
+struct ProgressionView: View {
     var mode: Mode
     
     var body: some View {
         VStack {
-            Text("Chords")
+            Text("Common Progressions")
             ScrollView(.horizontal) {
                 HStack {
-                    ForEach(mode.chords, id: \.self) { chord in
+                    ForEach(mode.progressions, id: \.self) { progression in
                         ZStack {
                             RoundedRectangle(cornerRadius: 20).stroke(Color.blue)
-                            Text(chord).padding(20)
+                            Text(progression).padding(20)
                         }
                     }
                 }
