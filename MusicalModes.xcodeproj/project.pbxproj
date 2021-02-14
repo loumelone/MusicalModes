@@ -9,21 +9,35 @@
 /* Begin PBXBuildFile section */
 		4152053825D5C10A00851AE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152053725D5C10A00851AE6 /* AppDelegate.swift */; };
 		4152053A25D5C10A00851AE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152053925D5C10A00851AE6 /* SceneDelegate.swift */; };
-		4152053C25D5C10A00851AE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152053B25D5C10A00851AE6 /* ContentView.swift */; };
 		4152053E25D5C10B00851AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4152053D25D5C10B00851AE6 /* Assets.xcassets */; };
 		4152054125D5C10B00851AE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4152054025D5C10B00851AE6 /* Preview Assets.xcassets */; };
 		4152054425D5C10B00851AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4152054225D5C10B00851AE6 /* LaunchScreen.storyboard */; };
+		4152055225D5DD1100851AE6 /* ModesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152055125D5DD1100851AE6 /* ModesModel.swift */; };
+		4152055525D6EEA100851AE6 /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152055425D6EEA100851AE6 /* HomeScreenView.swift */; };
+		4152055D25D6EF4C00851AE6 /* ModesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152055C25D6EF4C00851AE6 /* ModesVM.swift */; };
+		4152056325D8408A00851AE6 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056225D8408A00851AE6 /* CategoryView.swift */; };
+		4152056625D8422A00851AE6 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056525D8422A00851AE6 /* SongView.swift */; };
+		4152056925D8478800851AE6 /* ChordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056825D8478800851AE6 /* ChordView.swift */; };
+		4152056C25D84AFF00851AE6 /* ModeCategoryVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056B25D84AFF00851AE6 /* ModeCategoryVM.swift */; };
+		4152057025D8789400851AE6 /* ProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056F25D8789400851AE6 /* ProgressionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4152053425D5C10A00851AE6 /* MusicalModes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicalModes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4152053725D5C10A00851AE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4152053925D5C10A00851AE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4152053B25D5C10A00851AE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4152053D25D5C10B00851AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4152054025D5C10B00851AE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4152054325D5C10B00851AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4152054525D5C10B00851AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4152055125D5DD1100851AE6 /* ModesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModesModel.swift; sourceTree = "<group>"; };
+		4152055425D6EEA100851AE6 /* HomeScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		4152055C25D6EF4C00851AE6 /* ModesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModesVM.swift; sourceTree = "<group>"; };
+		4152056225D8408A00851AE6 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = SOURCE_ROOT; };
+		4152056525D8422A00851AE6 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
+		4152056825D8478800851AE6 /* ChordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordView.swift; sourceTree = SOURCE_ROOT; };
+		4152056B25D84AFF00851AE6 /* ModeCategoryVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeCategoryVM.swift; sourceTree = "<group>"; };
+		4152056F25D8789400851AE6 /* ProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +70,16 @@
 		4152053625D5C10A00851AE6 /* MusicalModes */ = {
 			isa = PBXGroup;
 			children = (
-				4152053725D5C10A00851AE6 /* AppDelegate.swift */,
+				4152056F25D8789400851AE6 /* ProgressionView.swift */,
+				4152056825D8478800851AE6 /* ChordView.swift */,
+				4152056225D8408A00851AE6 /* CategoryView.swift */,
+				4152055425D6EEA100851AE6 /* HomeScreenView.swift */,
+				4152056B25D84AFF00851AE6 /* ModeCategoryVM.swift */,
+				4152055C25D6EF4C00851AE6 /* ModesVM.swift */,
+				4152055125D5DD1100851AE6 /* ModesModel.swift */,
 				4152053925D5C10A00851AE6 /* SceneDelegate.swift */,
-				4152053B25D5C10A00851AE6 /* ContentView.swift */,
+				4152056525D8422A00851AE6 /* SongView.swift */,
+				4152053725D5C10A00851AE6 /* AppDelegate.swift */,
 				4152053D25D5C10B00851AE6 /* Assets.xcassets */,
 				4152054225D5C10B00851AE6 /* LaunchScreen.storyboard */,
 				4152054525D5C10B00851AE6 /* Info.plist */,
@@ -145,9 +166,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4152057025D8789400851AE6 /* ProgressionView.swift in Sources */,
 				4152053825D5C10A00851AE6 /* AppDelegate.swift in Sources */,
 				4152053A25D5C10A00851AE6 /* SceneDelegate.swift in Sources */,
-				4152053C25D5C10A00851AE6 /* ContentView.swift in Sources */,
+				4152056325D8408A00851AE6 /* CategoryView.swift in Sources */,
+				4152056C25D84AFF00851AE6 /* ModeCategoryVM.swift in Sources */,
+				4152056625D8422A00851AE6 /* SongView.swift in Sources */,
+				4152055225D5DD1100851AE6 /* ModesModel.swift in Sources */,
+				4152056925D8478800851AE6 /* ChordView.swift in Sources */,
+				4152055525D6EEA100851AE6 /* HomeScreenView.swift in Sources */,
+				4152055D25D6EF4C00851AE6 /* ModesVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
