@@ -19,8 +19,14 @@
 		4152056625D8422A00851AE6 /* SongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056525D8422A00851AE6 /* SongView.swift */; };
 		4152056925D8478800851AE6 /* ChordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056825D8478800851AE6 /* ChordView.swift */; };
 		4152057025D8789400851AE6 /* ProgressionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152056F25D8789400851AE6 /* ProgressionView.swift */; };
-		4152057625D974F600851AE6 /* CMaj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152057525D974F600851AE6 /* CMaj.mp3 */; };
 		4152058225D97F1200851AE6 /* ChordSounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4152058125D97F1200851AE6 /* ChordSounds.swift */; };
+		4152059725DC03E800851AE6 /* Bdim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059025DC03E800851AE6 /* Bdim.mp3 */; };
+		4152059825DC03E800851AE6 /* Amin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059125DC03E800851AE6 /* Amin.mp3 */; };
+		4152059925DC03E800851AE6 /* FMaj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059225DC03E800851AE6 /* FMaj.mp3 */; };
+		4152059A25DC03E800851AE6 /* Dmin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059325DC03E800851AE6 /* Dmin.mp3 */; };
+		4152059B25DC03E800851AE6 /* Emin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059425DC03E800851AE6 /* Emin.mp3 */; };
+		4152059C25DC03E800851AE6 /* GMaj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059525DC03E800851AE6 /* GMaj.mp3 */; };
+		4152059D25DC03E800851AE6 /* CMaj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059625DC03E800851AE6 /* CMaj.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +44,14 @@
 		4152056525D8422A00851AE6 /* SongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongView.swift; sourceTree = "<group>"; };
 		4152056825D8478800851AE6 /* ChordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChordView.swift; path = MusicalModes/Views/ChordView.swift; sourceTree = SOURCE_ROOT; };
 		4152056F25D8789400851AE6 /* ProgressionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProgressionView.swift; path = MusicalModes/Views/ProgressionView.swift; sourceTree = SOURCE_ROOT; };
-		4152057525D974F600851AE6 /* CMaj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CMaj.mp3; sourceTree = "<group>"; };
 		4152058125D97F1200851AE6 /* ChordSounds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ChordSounds.swift; path = MusicalModes/ChordSounds.swift; sourceTree = SOURCE_ROOT; };
+		4152059025DC03E800851AE6 /* Bdim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bdim.mp3; sourceTree = "<group>"; };
+		4152059125DC03E800851AE6 /* Amin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Amin.mp3; sourceTree = "<group>"; };
+		4152059225DC03E800851AE6 /* FMaj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FMaj.mp3; sourceTree = "<group>"; };
+		4152059325DC03E800851AE6 /* Dmin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dmin.mp3; sourceTree = "<group>"; };
+		4152059425DC03E800851AE6 /* Emin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Emin.mp3; sourceTree = "<group>"; };
+		4152059525DC03E800851AE6 /* GMaj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GMaj.mp3; sourceTree = "<group>"; };
+		4152059625DC03E800851AE6 /* CMaj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CMaj.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,13 @@
 		4152057825D9750300851AE6 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
-				4152057525D974F600851AE6 /* CMaj.mp3 */,
+				4152059125DC03E800851AE6 /* Amin.mp3 */,
+				4152059025DC03E800851AE6 /* Bdim.mp3 */,
+				4152059625DC03E800851AE6 /* CMaj.mp3 */,
+				4152059325DC03E800851AE6 /* Dmin.mp3 */,
+				4152059425DC03E800851AE6 /* Emin.mp3 */,
+				4152059225DC03E800851AE6 /* FMaj.mp3 */,
+				4152059525DC03E800851AE6 /* GMaj.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -172,10 +190,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4152059C25DC03E800851AE6 /* GMaj.mp3 in Resources */,
+				4152059925DC03E800851AE6 /* FMaj.mp3 in Resources */,
 				4152054425D5C10B00851AE6 /* LaunchScreen.storyboard in Resources */,
-				4152057625D974F600851AE6 /* CMaj.mp3 in Resources */,
 				4152054125D5C10B00851AE6 /* Preview Assets.xcassets in Resources */,
+				4152059825DC03E800851AE6 /* Amin.mp3 in Resources */,
+				4152059725DC03E800851AE6 /* Bdim.mp3 in Resources */,
+				4152059A25DC03E800851AE6 /* Dmin.mp3 in Resources */,
+				4152059D25DC03E800851AE6 /* CMaj.mp3 in Resources */,
 				4152053E25D5C10B00851AE6 /* Assets.xcassets in Resources */,
+				4152059B25DC03E800851AE6 /* Emin.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

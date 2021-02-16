@@ -10,7 +10,7 @@ import AVFoundation
 
 struct ChordView: View {
     
-    var sounds = Sounds()
+    var sounds = ChordSounds()
     var mode: Mode
     
     var body: some View {
