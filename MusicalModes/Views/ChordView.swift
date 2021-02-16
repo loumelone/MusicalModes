@@ -23,7 +23,7 @@ struct ChordView: View {
                             RoundedRectangle(cornerRadius: 20).stroke(Color.blue)
                             Text(chord).padding(20)
                                 .onTapGesture {
-                                    sounds.playCMaj()
+                                    sounds.play(chord)
                                 }
                         }
                         
