@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ProgressionView: View {
+    
+    var sounds = ChordSounds()
     var mode: Mode
     
     var body: some View {
@@ -19,6 +21,9 @@ struct ProgressionView: View {
                         ZStack {
                             RoundedRectangle(cornerRadius: 20).stroke(Color.blue)
                             Text(progression).padding(20)
+                                .onTapGesture {
+                                    sounds.play(progression)
+                                }
                         }
                     }
                 }

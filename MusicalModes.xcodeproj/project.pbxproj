@@ -27,6 +27,7 @@
 		4152059B25DC03E800851AE6 /* Emin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059425DC03E800851AE6 /* Emin.mp3 */; };
 		4152059C25DC03E800851AE6 /* GMaj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059525DC03E800851AE6 /* GMaj.mp3 */; };
 		4152059D25DC03E800851AE6 /* CMaj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059625DC03E800851AE6 /* CMaj.mp3 */; };
+		415205A025DC20DA00851AE6 /* I-IV-V.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059F25DC20DA00851AE6 /* I-IV-V.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		4152059425DC03E800851AE6 /* Emin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Emin.mp3; sourceTree = "<group>"; };
 		4152059525DC03E800851AE6 /* GMaj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GMaj.mp3; sourceTree = "<group>"; };
 		4152059625DC03E800851AE6 /* CMaj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CMaj.mp3; sourceTree = "<group>"; };
+		4152059F25DC20DA00851AE6 /* I-IV-V.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I-IV-V.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +91,6 @@
 				4152058125D97F1200851AE6 /* ChordSounds.swift */,
 				4152055125D5DD1100851AE6 /* ModesModel.swift */,
 				4152053925D5C10A00851AE6 /* SceneDelegate.swift */,
-				4152056525D8422A00851AE6 /* SongView.swift */,
 				4152053725D5C10A00851AE6 /* AppDelegate.swift */,
 				4152057825D9750300851AE6 /* Sounds */,
 				4152053D25D5C10B00851AE6 /* Assets.xcassets */,
@@ -118,6 +119,7 @@
 				4152059425DC03E800851AE6 /* Emin.mp3 */,
 				4152059225DC03E800851AE6 /* FMaj.mp3 */,
 				4152059525DC03E800851AE6 /* GMaj.mp3 */,
+				4152059F25DC20DA00851AE6 /* I-IV-V.mp3 */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -127,6 +129,7 @@
 			children = (
 				4152055425D6EEA100851AE6 /* HomeScreenView.swift */,
 				4152056225D8408A00851AE6 /* CategoryView.swift */,
+				4152056525D8422A00851AE6 /* SongView.swift */,
 				4152056825D8478800851AE6 /* ChordView.swift */,
 				4152056F25D8789400851AE6 /* ProgressionView.swift */,
 			);
@@ -198,6 +201,7 @@
 				4152059725DC03E800851AE6 /* Bdim.mp3 in Resources */,
 				4152059A25DC03E800851AE6 /* Dmin.mp3 in Resources */,
 				4152059D25DC03E800851AE6 /* CMaj.mp3 in Resources */,
+				415205A025DC20DA00851AE6 /* I-IV-V.mp3 in Resources */,
 				4152053E25D5C10B00851AE6 /* Assets.xcassets in Resources */,
 				4152059B25DC03E800851AE6 /* Emin.mp3 in Resources */,
 			);

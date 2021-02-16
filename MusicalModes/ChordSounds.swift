@@ -12,9 +12,9 @@ class ChordSounds {
     
     var player: AVAudioPlayer?
     
-    func play(_ chord: String?) {
+    func play(_ chordOrProgression: String?) {
         
-        let fileName: String = chord!
+        let fileName: String = chordOrProgression!
         
         let soundURL = Bundle.main.url(forResource: fileName, withExtension: "mp3")
         
@@ -26,7 +26,6 @@ class ChordSounds {
         
         player?.play()
     }
-    
     
 }
 

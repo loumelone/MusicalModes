@@ -26,7 +26,6 @@ struct ChordView: View {
                                     sounds.play(chord)
                                 }
                         }
-                        
                     }
                 }
             }
