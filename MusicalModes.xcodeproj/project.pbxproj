@@ -28,6 +28,7 @@
 		4152059C25DC03E800851AE6 /* GMaj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059525DC03E800851AE6 /* GMaj.mp3 */; };
 		4152059D25DC03E800851AE6 /* CMaj.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059625DC03E800851AE6 /* CMaj.mp3 */; };
 		415205A025DC20DA00851AE6 /* I-IV-V.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4152059F25DC20DA00851AE6 /* I-IV-V.mp3 */; };
+		418810C625EEBFBA00D3A600 /* ChordGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418810C525EEBFBA00D3A600 /* ChordGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		4152059525DC03E800851AE6 /* GMaj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GMaj.mp3; sourceTree = "<group>"; };
 		4152059625DC03E800851AE6 /* CMaj.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = CMaj.mp3; sourceTree = "<group>"; };
 		4152059F25DC20DA00851AE6 /* I-IV-V.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I-IV-V.mp3"; sourceTree = "<group>"; };
+		418810C525EEBFBA00D3A600 /* ChordGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordGameView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		4152053625D5C10A00851AE6 /* MusicalModes */ = {
 			isa = PBXGroup;
 			children = (
+				418810C525EEBFBA00D3A600 /* ChordGameView.swift */,
 				4152058525D97F3700851AE6 /* Views */,
 				4152055C25D6EF4C00851AE6 /* ModesVM.swift */,
 				4152058125D97F1200851AE6 /* ChordSounds.swift */,
@@ -214,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				418810C625EEBFBA00D3A600 /* ChordGameView.swift in Sources */,
 				4152058225D97F1200851AE6 /* ChordSounds.swift in Sources */,
 				4152057025D8789400851AE6 /* ProgressionView.swift in Sources */,
 				4152053825D5C10A00851AE6 /* AppDelegate.swift in Sources */,

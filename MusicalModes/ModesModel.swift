@@ -18,7 +18,6 @@ struct ModesModel {
                                            (Mode(name: "Aeolian", progressions: ["ii-IV"], chords: ["Cmin", "Ddim", "EbMaj", "Fmin", "Gmin", "AbMaj", "BbMaj" ] )),
                                            (Mode(name: "Locrian", progressions: ["ii-IV"], chords: ["Cdim", "DbMaj", "Ebmin", "Fmin", "GbMaj", "AbMaj", "Bbmin" ] ))]
     
-    private(set) var ioanianSongs: Array<Song>
                                            
 }
 

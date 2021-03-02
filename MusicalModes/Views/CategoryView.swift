@@ -12,15 +12,29 @@ struct CategoryView: View {
     var mode: Mode
 
     var body: some View {
-        NavigationView {
-            ScrollView {
-//                SongView(mode: self.mode)
+        VStack {
+            VStack {
+                Text("Games")
+                ScrollView(.horizontal) {
+                    HStack {
+                        NavigationLink(destination: ChordGamePlayView(mode: mode)) {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 20).stroke(Color.blue)
+                                Text("Chord Change Game").padding(20)
+                            }
+                        }
+                    }
+                }
+            }
+            VStack {
                 ProgressionView(mode: self.mode)
                 ChordView(mode: self.mode)
-            }
+                }
             }
         }
     }
+
+    
 
     
 
